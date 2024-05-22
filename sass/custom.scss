@@ -1,0 +1,33 @@
+
+$theme-colors:(
+    'primary':#e08282,
+    'secundary':#d9d7d6,
+);
+.comprar{
+    width: 90%;
+    height: 40PX;
+}
+.card{
+    margin-top: 20px;
+}
+.flex-card{
+    flex-wrap: wrap
+}
+@media (max-width:620px) {
+   .solo{
+    width: 100%;
+   } 
+}
+.des{
+    width: 30%;
+    height: 300px;
+    margin-top: 180PX
+}
+.tes{
+    height: 100px;
+}
+
+@import"../node_modules/bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
